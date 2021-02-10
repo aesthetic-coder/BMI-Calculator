@@ -1,0 +1,38 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <title>| BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/1024/Calculator_5122x.png" type="image/x-icon">
+</head>
+<body>
+    <img src= "https://i1.faceprep.in/bmi-calculator-logo.png">
+    <p id="text"> There's no perfect weight that fits everyone. Body Mass Index (BMI) is a measure of how healthy your weight is based on how tall you are. Let’s find out your BMI.</p>
+    
+    <form class="form" id="form" onsubmit="return validateForm()">
+    
+        <div class="Age">
+                <input type="text" placeholder="Enter your Age" class="text-input" id="age" autocomplete="off" required /><p class="text"></p>
+            </div>
+        </div>
+    
+        <div class="Height">
+                <input type="text" placeholder="Enter your height (in centimeters)" class="text-input" id="height" autocomplete="off" required><p class="text"></p>
+        </div>
+
+        <div class="Weight">
+                <input type="text" placeholder="Enter your weight (in kgs)" class="text-input" id="weight" autocomplete="off" required><p class="text"></p>
+            </div>
+        </div>
+
+        <div id="Calculate">
+            <button id="submit">Calculate</button>
+        </div>
+
+    </form>
+    <br>
+    <a href=""> Built with 💙 by Fathima Zahra</a>
+    <script src="./app.js"></script>
+</body>
+
+</html>
